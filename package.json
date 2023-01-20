@@ -1,0 +1,19 @@
+{
+  "name": "automated-email",
+  "version": "1.0.0",
+  "description": "Microservice to send automated emails",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dhrumit Kansara",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "nodemailer": "^6.9.0",
+    "nodemon": "^2.0.20"
+  }
+}
